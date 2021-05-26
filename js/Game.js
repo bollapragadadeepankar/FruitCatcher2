@@ -142,7 +142,7 @@ class Game{
             default : break;
           }
           
-          fruits.velocityY=5;
+          fruits.velocityY=8;
        fruits.lifetime=600;
        fruitGroup.add(fruits);
         }
