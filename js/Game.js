@@ -43,7 +43,7 @@ class Game{
         image(back_img, 0, 0, 1000, 800);
         fill("blue")
         textSize(20)
-        text("First one to score 20 will be the winner!!",280,50)
+        text("First one to score 10 will be the winner!!",280,50)
         //var x =100;
         //var y=200;
         var x,y;
@@ -75,7 +75,7 @@ class Game{
             text(allPlayers[plr].name,x-40,530)
            }
 
-           if(allPlayers[plr].score===20){
+           if(allPlayers[plr].score===10){
             gameState = 3
            }
         }
@@ -142,7 +142,7 @@ class Game{
             default : break;
           }
           
-          fruits.velocityY=2;
+          fruits.velocityY=5;
        fruits.lifetime=600;
        fruitGroup.add(fruits);
         }
